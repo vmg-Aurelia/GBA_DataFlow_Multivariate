@@ -1,0 +1,4 @@
+﻿Model,Mean_Accuracy,Std_Accuracy,Min_Accuracy,Max_Accuracy,N_Folds
+LDA,1.0,0.0,1.0,1.0,5
+Logistic,1.0,0.0,1.0,1.0,5
+RandomForest,0.9818181818181818,0.036363636363636376,0.9090909090909091,1.0,5

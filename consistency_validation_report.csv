@@ -1,0 +1,4 @@
+﻿Check_Type,Status,Details
+Time_Continuity,Pass,Complete
+Logical_Relation,Pass,0 records with logical errors
+Cross_Table_Validation,Pass,Consistent
