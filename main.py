@@ -2896,7 +2896,7 @@ class ClusteringClassificationAnalysis:
         print(f"测试集: {len(y_test_filtered)} 样本")
         
         print("\n步骤5: 评估分类任务难度")
-        from sklearn.metrics import mutual_info_classif
+        from sklearn.feature_selection import mutual_info_classif
         mi_scores = mutual_info_classif(X_train_scaled_filtered, y_train_filtered, 
                                        discrete_features=False, random_state=42)
         avg_mi = np.mean(mi_scores)
